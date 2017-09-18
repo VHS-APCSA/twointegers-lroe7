@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class TwoIntegers
 {
@@ -37,12 +36,17 @@ public class TwoIntegers
 		int product = number1 * number2;
 		int difference = number1 - number2;
 		double quotient = number1 / number2;
-		double decimal = 0.0;
-		decimal = (double) number1 / number2;
-		arithmetic = "The sum is " + sum;
-		arithmetic = "The product is" + product;
-		arithmetic = "The difference is" + difference;
-		arithmetic = "The quotient is" + quotient;
+		arithmetic = "The sum is " + sum + "\n";
+		arithmetic += "The product is" + product + "\n";
+		arithmetic += "The difference is" + difference + "\n";
+		arithmetic += "The quotient is" + quotient;
 		return arithmetic;
+	}
+	public int comparingIntegers()
+	{
+		 if (number1 < number2)
+		 {
+			 display number2;
+		 }
 	}
 }
