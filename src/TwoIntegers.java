@@ -44,9 +44,7 @@ public class TwoIntegers
 	}
 	public int comparingIntegers()
 	{
-		 if (number1 < number2)
-		 {
-			 display number2;
-		 }
+		int comparingIntegers = 1; 
+		return comparingIntegers;
 	}
 }
