@@ -44,7 +44,19 @@ public class TwoIntegers
 	}
 	public int comparingIntegers()
 	{
-		int comparingIntegers = 1; 
+		int comparingIntegers = 0;
+		if(number1>number2)
+		{
+			comparingIntegers = number1;
+		}
+		else if(number1 == number2)
+		{
+			comparingIntegers = (int) Double.NaN;
+		}
+		else
+		{
+			
+		}
 		return comparingIntegers;
 	}
 }
