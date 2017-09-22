@@ -51,11 +51,11 @@ public class TwoIntegers
 		}
 		else if(number1 == number2)
 		{
-			comparingIntegers = (int) Double.NaN;
+			comparingIntegers = 0;
 		}
 		else
 		{
-			
+			comparingIntegers = number2;
 		}
 		return comparingIntegers;
 	}
