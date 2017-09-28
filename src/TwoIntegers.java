@@ -59,4 +59,26 @@ public class TwoIntegers
 		}
 		return comparingIntegers;
 	}
+	public String oddEven()
+	{
+		String oddEven = "";
+		if(number1%2 == 0)
+		{
+			oddEven = number1 + " is even";
+		}
+		else
+		{
+			oddEven = number1 + " is odd";
+		}
+		if(number2%2 == 0)
+		{
+			oddEven = number2 + " is even";
+		}
+		else
+		{
+			oddEven = number2 + " is odd";
+		}
+		return oddEven;
+	}
+	
 }

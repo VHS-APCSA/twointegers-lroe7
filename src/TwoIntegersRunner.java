@@ -20,5 +20,7 @@ public class TwoIntegersRunner
 		{
 			System.out.println(compare + " is larger");
 		}
+		String oddEven = integer.oddEven();
+		System.out.println(oddEven);
 	}
 }
