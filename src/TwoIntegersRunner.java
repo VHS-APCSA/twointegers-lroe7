@@ -20,7 +20,23 @@ public class TwoIntegersRunner
 		{
 			System.out.println(compare + " is larger");
 		}
-		String oddEven = integer.oddEven();
-		System.out.println(oddEven);
+		boolean oddEven = integer.oddEven();
+		if(oddEven == true)
+		{
+			System.out.println(true);
+		}
+		else
+		{
+			System.out.println(false);
+		}
+		boolean multiples = integer.multiples();
+		if(multiples == true)
+		{
+			System.out.println(true);
+		}
+		else 
+		{
+			System.out.println(false);
+		}
 	}
 }

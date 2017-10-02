@@ -59,26 +59,30 @@ public class TwoIntegers
 		}
 		return comparingIntegers;
 	}
-	public String oddEven()
+	public boolean oddEven()
 	{
-		String oddEven = "";
-		if(number1%2 == 0)
+		boolean oddEven = true;
+		if(comparingIntegers()%2 == 0)
 		{
-			oddEven = number1 + " is even";
+			oddEven = true;
 		}
 		else
 		{
-			oddEven = number1 + " is odd";
-		}
-		if(number2%2 == 0)
-		{
-			oddEven = number2 + " is even";
-		}
-		else
-		{
-			oddEven = number2 + " is odd";
+			oddEven = false;
 		}
 		return oddEven;
 	}
-	
+	public boolean multiples()
+	{
+		boolean  multiples = true;
+		if(number2%number1 == 0)
+		{
+			multiples = true;
+		}
+		else 
+		{
+			multiples = false;
+		}
+		return multiples;
+	}
 }
