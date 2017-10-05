@@ -35,11 +35,11 @@ public class TwoIntegers
 		int sum = number1 + number2;
 		int product = number1 * number2;
 		int difference = number1 - number2;
-		double quotient = number1 / number2;
+		int quotient = number1 / number2;
 		arithmetic = "The sum is " + sum + "\n";
-		arithmetic += "The product is" + product + "\n";
-		arithmetic += "The difference is" + difference + "\n";
-		arithmetic += "The quotient is" + quotient;
+		arithmetic += "The product is " + product + "\n";
+		arithmetic += "The difference is " + difference + "\n";
+		arithmetic += "The quotient is " + quotient;
 		return arithmetic;
 	}
 	public int comparingIntegers()
