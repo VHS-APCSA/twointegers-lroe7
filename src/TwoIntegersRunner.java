@@ -40,5 +40,6 @@ public class TwoIntegersRunner
 		{
 			System.out.println("is multiple: " + false);
 		}
+		input.close();
 	}
 }
